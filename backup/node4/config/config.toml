@@ -488,4 +488,4 @@ namespace = "cometbft"
 [app]
 agent_url = "http://127.0.0.1:3003"
 service_address = "0.0.0.0:8634"
-discussion_rate = 100
+discussion_rate = 10
