@@ -407,7 +407,7 @@ timeout_precommit_delta = "500ms"
 # How long we wait after committing a block, before starting on the new
 # height (this gives us a chance to receive some more precommits, even
 # though we already have +2/3).
-timeout_commit = "15s"
+timeout_commit = "30s"
 
 # How many blocks to look back to check existence of the node's consensus votes before joining consensus
 # When non-zero, the node will panic upon restart
@@ -488,3 +488,4 @@ namespace = "cometbft"
 [app]
 agent_url = "http://127.0.0.1:3001"
 service_address = "0.0.0.0:8632"
+discussion_rate = 100
