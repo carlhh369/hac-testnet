@@ -64,12 +64,12 @@
       {
         "address": "34FD614056149137586D8F0E24A35C21267610D3",
         "name": "Bob",
-        "agent_url": "http://127.0.0.1:3000"
+        "agent_url": "http://127.0.0.1:3001"
       },
       {
         "address": "754D796C74F7E1B08D20057DB3832480005D9ED4",
-        "name": "Charlie",
-        "agent_url": "http://127.0.0.1:3000"
+        "name": "Charlice",
+        "agent_url": "http://127.0.0.1:3002"
       }
     ],
     "manifest": "Fly Me To The Moon"
